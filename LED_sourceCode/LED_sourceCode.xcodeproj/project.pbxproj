@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A688831B5CCD68002BE4DC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A688821B5CCD68002BE4DC /* ball.png */; };
+		03A688851B5CCD79002BE4DC /* ball_running.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A688841B5CCD79002BE4DC /* ball_running.png */; };
 		03FFAF631B564C9C0041087E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFAF621B564C9C0041087E /* main.m */; };
 		03FFAF661B564C9C0041087E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFAF651B564C9C0041087E /* AppDelegate.m */; };
 		03FFAF691B564C9C0041087E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFAF681B564C9C0041087E /* ViewController.m */; };
 		03FFAF6C1B564C9C0041087E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAF6A1B564C9C0041087E /* Main.storyboard */; };
 		03FFAF6E1B564C9C0041087E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAF6D1B564C9C0041087E /* Images.xcassets */; };
 		03FFAF711B564C9C0041087E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAF6F1B564C9C0041087E /* LaunchScreen.xib */; };
+		03FFAF871B564E380041087E /* 1436966126_apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 03FFAF861B564E380041087E /* 1436966126_apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03A688821B5CCD68002BE4DC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		03A688841B5CCD79002BE4DC /* ball_running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_running.png; sourceTree = "<group>"; };
 		03FFAF5D1B564C9C0041087E /* LED_sourceCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LED_sourceCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FFAF611B564C9C0041087E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FFAF621B564C9C0041087E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		03FFAF6B1B564C9C0041087E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03FFAF6D1B564C9C0041087E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03FFAF701B564C9C0041087E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03FFAF861B564E380041087E /* 1436966126_apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1436966126_apple.png; path = LED_sourceCode/1436966126_apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		03FFAF541B564C9C0041087E = {
 			isa = PBXGroup;
 			children = (
+				03FFAF881B564E3E0041087E /* images */,
 				03FFAF5F1B564C9C0041087E /* LED_sourceCode */,
 				03FFAF5E1B564C9C0041087E /* Products */,
 			);
@@ -77,6 +84,16 @@
 				03FFAF621B564C9C0041087E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03FFAF881B564E3E0041087E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				03A688821B5CCD68002BE4DC /* ball.png */,
+				03A688841B5CCD79002BE4DC /* ball_running.png */,
+				03FFAF861B564E380041087E /* 1436966126_apple.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +153,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FFAF871B564E380041087E /* 1436966126_apple.png in Resources */,
+				03A688851B5CCD79002BE4DC /* ball_running.png in Resources */,
 				03FFAF6C1B564C9C0041087E /* Main.storyboard in Resources */,
 				03FFAF711B564C9C0041087E /* LaunchScreen.xib in Resources */,
 				03FFAF6E1B564C9C0041087E /* Images.xcassets in Resources */,
+				03A688831B5CCD68002BE4DC /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +316,7 @@
 				03FFAF821B564C9C0041087E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
